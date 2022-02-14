@@ -1,0 +1,8 @@
+# Get a list of name as an input from the user
+# and make the first letters in caps
+# and print each word
+# as a list
+
+lista = input("Enter a string: ")
+for ogniLettera in lista :
+    print (ogniLettera.capitalize())
